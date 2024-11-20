@@ -38,7 +38,7 @@ a:hover {
 
 .mark {
     background-color: rgba(255, 255, 255, 0.2); /* Fondo más claro para el texto marcado */
-    color: white; /* Color del texto marcado */
+    color: rgb(193, 8, 255); /* Color del texto marcado */
 }
 
 .d-flex {
@@ -102,5 +102,15 @@ body {
 footer {
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%;    
+}
+
+.img-fluid {
+    width: 100%; /* Hacer que las imágenes sean responsivas */
+    height: 150px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin deformarse */
+}
+.logo{
+    width: 100px;
+    object-fit: center;
 }
